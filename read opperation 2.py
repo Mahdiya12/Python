@@ -11,3 +11,10 @@ print(file.readline())
 print(file.readline())
 file.close()
 
+file = open('coding.txt' , 'r')
+print("looping throught he lines...")
+
+for line in file:
+ print(line)
+
+file.close()
